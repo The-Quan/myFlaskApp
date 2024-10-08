@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for
-from post import get_posts, add_posts 
- # Import các hàm từ file posts
+from .post import get_posts, add_posts
+
 
 app = Flask(__name__)
 

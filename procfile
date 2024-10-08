@@ -1,1 +1,1 @@
-wed: gunicorn app:app
+wed: gunicorn my_flask_app.app:app
